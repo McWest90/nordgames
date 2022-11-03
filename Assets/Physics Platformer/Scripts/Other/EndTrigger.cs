@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndTrigger : MonoBehaviour
 {
     //Exposed Variables
     ///////////////////
     
+    [SerializeField] private string mainMenuSceneName;
     [SerializeField]
     public bool reachedTheEnd;
     
@@ -15,6 +17,7 @@ public class EndTrigger : MonoBehaviour
         if(other.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             reachedTheEnd = true;
+            SceneManager.LoadScene(mainMenuSceneName);
         }
     }
 }
