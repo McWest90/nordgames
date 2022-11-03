@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Physics Puzzle Platformer/Scenes/Menu.unity
+    path: Assets/Physics Platformer/Scenes/Menu.unity
     guid: 38681669131782b4ca8d96b26803795a
   - enabled: 1
-    path: Assets/Physics Puzzle Platformer/Scenes/Game.unity
+    path: Assets/Physics Platformer/Scenes/Game.unity
     guid: a570b579f494fd942a43c5d5d5b603d9
   m_configObjects: {}
