@@ -1219,7 +1219,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ea4536fe824f36746a37e7f25b00bd32, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d9cca154a4e674ed1bf1de119173cfe0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
@@ -2363,8 +2363,8 @@ MonoBehaviour:
   idleAnimation: Play_Idle_Pop
   hoverAnimation: Play_Hover_Pop
   audioSource: {fileID: 1917916868}
-  hoverSound: {fileID: 8300000, guid: b2f26128192b3ae47be1da9a381fba4e, type: 3}
-  popSound: {fileID: 8300000, guid: 073d22489337e424ca95002c5b5b4cff, type: 3}
+  hoverSound: {fileID: 8300000, guid: 2a492e2a68cf4754a9133989108ef297, type: 3}
+  popSound: {fileID: 8300000, guid: 1174d1b6cd51b6646b219f87786c503b, type: 3}
 --- !u!95 &1912184608
 Animator:
   serializedVersion: 4
@@ -2716,8 +2716,8 @@ MonoBehaviour:
   idleAnimation: Quit_Idle_Pop
   hoverAnimation: Quit_Hover_Pop
   audioSource: {fileID: 1917916868}
-  hoverSound: {fileID: 8300000, guid: b2f26128192b3ae47be1da9a381fba4e, type: 3}
-  popSound: {fileID: 8300000, guid: 073d22489337e424ca95002c5b5b4cff, type: 3}
+  hoverSound: {fileID: 8300000, guid: 2a492e2a68cf4754a9133989108ef297, type: 3}
+  popSound: {fileID: 8300000, guid: 1174d1b6cd51b6646b219f87786c503b, type: 3}
 --- !u!95 &2023419821
 Animator:
   serializedVersion: 4
