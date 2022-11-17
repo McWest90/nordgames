@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1354007073}
-  m_IndirectSpecularColor: {r: 0.43689513, g: 0.48455387, b: 0.5648124, a: 1}
+  m_IndirectSpecularColor: {r: 0.4368954, g: 0.48455435, b: 0.56481314, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9489,11 +9489,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5758594101351757998, guid: 7444c90406137d94dbb5683697efd454, type: 3}
---- !u!153 &139320433 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151288227449675, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &141997916
 GameObject:
   m_ObjectHideFlags: 0
@@ -13535,11 +13530,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7444c90406137d94dbb5683697efd454, type: 3}
---- !u!153 &216818624 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151288696811259, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &219642362
 GameObject:
   m_ObjectHideFlags: 0
@@ -14157,11 +14147,6 @@ Transform:
   m_Father: {fileID: 1585679753}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!153 &231255310 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151288061962756, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &233188198
 GameObject:
   m_ObjectHideFlags: 0
@@ -15977,11 +15962,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254951666}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &255893594 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151288865505101, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &257148563
 GameObject:
   m_ObjectHideFlags: 0
@@ -16461,8 +16441,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objResetPoint: {fileID: 1854258180}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
 --- !u!114 &264544989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16475,11 +16455,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69d403c6fbef444689f19a6c1c6e795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 836537404}
-  ragdollPlayer: {fileID: 836537403}
-  ragdollRoot: {fileID: 570630971}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  playerController: {fileID: 0}
+  ragdollPlayer: {fileID: 0}
+  ragdollRoot: {fileID: 0}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
   resetPoint: {fileID: 1854258180}
   instantCameraUpdate: 1
 --- !u!1 &269031808
@@ -27079,17 +27059,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457115663}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &457538756 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3075151287245988258, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa9c10fa25894fc488efb4fc58e0651e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &457843922
 GameObject:
   m_ObjectHideFlags: 0
@@ -32452,8 +32421,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objResetPoint: {fileID: 1073442449}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
 --- !u!114 &562915787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32466,11 +32435,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69d403c6fbef444689f19a6c1c6e795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 836537404}
-  ragdollPlayer: {fileID: 836537403}
-  ragdollRoot: {fileID: 570630971}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  playerController: {fileID: 0}
+  ragdollPlayer: {fileID: 0}
+  ragdollRoot: {fileID: 0}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
   resetPoint: {fileID: 1073442449}
   instantCameraUpdate: 1
 --- !u!65 &562915788
@@ -32501,11 +32470,6 @@ Transform:
   m_Father: {fileID: 391109435}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!153 &563916010 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151288265359699, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &564833985
 GameObject:
   m_ObjectHideFlags: 0
@@ -32589,11 +32553,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564833985}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &569532065 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151287496814503, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &569848107
 GameObject:
   m_ObjectHideFlags: 0
@@ -32774,16 +32733,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570474430}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &570630971 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3075151287930043997, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &570630972 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3075151287930043994, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &572063428
 GameObject:
   m_ObjectHideFlags: 0
@@ -37278,17 +37227,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633173203}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &633567372 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3075151287942637034, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa9c10fa25894fc488efb4fc58e0651e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &636167660
 GameObject:
   m_ObjectHideFlags: 0
@@ -37506,8 +37444,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objResetPoint: {fileID: 537480197}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
 --- !u!114 &638879930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37520,11 +37458,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69d403c6fbef444689f19a6c1c6e795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 836537404}
-  ragdollPlayer: {fileID: 836537403}
-  ragdollRoot: {fileID: 570630971}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  playerController: {fileID: 0}
+  ragdollPlayer: {fileID: 0}
+  ragdollRoot: {fileID: 0}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
   resetPoint: {fileID: 537480197}
   instantCameraUpdate: 1
 --- !u!65 &638879931
@@ -46885,11 +46823,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804549865}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &806535071 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151289013481401, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &807288258
 GameObject:
   m_ObjectHideFlags: 0
@@ -49238,22 +49171,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835254363}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &836537403 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3075151287608152413, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &836537404 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3075151287608152410, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836537403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08255063ead8e2e449ec8ec4a58471d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &837207414 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7833338809597563689, guid: 7444c90406137d94dbb5683697efd454, type: 3}
@@ -52368,11 +52285,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889978340}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &890339490 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151287137888726, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &890596760
 GameObject:
   m_ObjectHideFlags: 0
@@ -56311,7 +56223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4490b624ea1c4d94da4d77355a39c01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 570630972}
+  player: {fileID: 0}
   positionOffset: {x: 0, y: 0.8, z: 0}
   distance: -2.5
   rotateSpeed: -4
@@ -66430,8 +66342,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objResetPoint: {fileID: 1390377661}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
 --- !u!114 &1116641702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66444,11 +66356,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69d403c6fbef444689f19a6c1c6e795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 836537404}
-  ragdollPlayer: {fileID: 836537403}
-  ragdollRoot: {fileID: 570630971}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  playerController: {fileID: 0}
+  ragdollPlayer: {fileID: 0}
+  ragdollRoot: {fileID: 0}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
   resetPoint: {fileID: 1390377661}
   instantCameraUpdate: 1
 --- !u!65 &1116641703
@@ -71921,11 +71833,6 @@ Transform:
   m_Father: {fileID: 1924566727}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!153 &1203394679 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151287942637035, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1204829390
 GameObject:
   m_ObjectHideFlags: 0
@@ -83800,23 +83707,23 @@ MonoBehaviour:
   animatorPlayer: {fileID: 1396210067}
   ragdollPlayer: {fileID: 0}
   ragdollParts:
-  - {fileID: 563916010}
-  - {fileID: 231255310}
-  - {fileID: 569532065}
-  - {fileID: 255893594}
-  - {fileID: 2038145748}
-  - {fileID: 2127659286}
-  - {fileID: 139320433}
-  - {fileID: 2029712750}
-  - {fileID: 806535071}
-  - {fileID: 1949157118}
-  - {fileID: 1758465856}
-  - {fileID: 216818624}
-  - {fileID: 1555253743}
-  - {fileID: 890339490}
-  - {fileID: 1203394679}
-  HandControllerRight: {fileID: 633567372}
-  HandControllerLeft: {fileID: 457538756}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  HandControllerRight: {fileID: 0}
+  HandControllerLeft: {fileID: 0}
   useControls: 1
   ragdollLayer: Ragdoll
   forwardBackAxis: Vertical
@@ -89444,11 +89351,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555213974}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &1555253743 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151288298419535, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1555392543
 GameObject:
   m_ObjectHideFlags: 0
@@ -96273,8 +96175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objResetPoint: {fileID: 2018032262}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
 --- !u!114 &1651160637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96287,11 +96189,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69d403c6fbef444689f19a6c1c6e795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 836537404}
-  ragdollPlayer: {fileID: 836537403}
-  ragdollRoot: {fileID: 570630971}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  playerController: {fileID: 0}
+  ragdollPlayer: {fileID: 0}
+  ragdollRoot: {fileID: 0}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
   resetPoint: {fileID: 2018032262}
   instantCameraUpdate: 1
 --- !u!65 &1651160638
@@ -102657,11 +102559,6 @@ Transform:
   m_Father: {fileID: 383926185}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!153 &1758465856 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151287245988271, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1760278911
 GameObject:
   m_ObjectHideFlags: 0
@@ -114251,11 +114148,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946689654}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &1949157118 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151287753956692, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1951250110
 GameObject:
   m_ObjectHideFlags: 0
@@ -118441,8 +118333,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objResetPoint: {fileID: 1061490345}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
 --- !u!114 &2013819624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118455,11 +118347,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69d403c6fbef444689f19a6c1c6e795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 836537404}
-  ragdollPlayer: {fileID: 836537403}
-  ragdollRoot: {fileID: 570630971}
-  rightHandController: {fileID: 633567372}
-  leftHandController: {fileID: 457538756}
+  playerController: {fileID: 0}
+  ragdollPlayer: {fileID: 0}
+  ragdollRoot: {fileID: 0}
+  rightHandController: {fileID: 0}
+  leftHandController: {fileID: 0}
   resetPoint: {fileID: 1061490345}
   instantCameraUpdate: 1
 --- !u!65 &2013819625
@@ -119574,11 +119466,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028828894}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &2029712750 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151288497116562, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2032627194
 GameObject:
   m_ObjectHideFlags: 0
@@ -119749,11 +119636,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037643828}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &2038145748 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151287406265514, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2039707439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -124817,11 +124699,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126833238}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!153 &2127659286 stripped
-ConfigurableJoint:
-  m_CorrespondingSourceObject: {fileID: 3075151287322353027, guid: ebaf21e7484958f47ad7da583917bdaa, type: 3}
-  m_PrefabInstance: {fileID: 3075151287359413606}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2127993555
 GameObject:
   m_ObjectHideFlags: 0
